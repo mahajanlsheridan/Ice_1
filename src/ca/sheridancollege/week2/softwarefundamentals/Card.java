@@ -40,7 +40,7 @@ public class Card
     public void setSuit(String suit) {
         if(suit.equals("Hearts") || suit.equals("Diamonds")|| suit.equals("Clubs")|| suit.equals("Spades"))
         {
-            this.suit = suit;
+            this.suit = suit;//this keyword is used.
         }
         else
         {
