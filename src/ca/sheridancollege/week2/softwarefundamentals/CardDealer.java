@@ -18,6 +18,11 @@ public class CardDealer
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
     }
-    Card myObject=new Card();
+    Card myObject=new Card(myObject,3);
+    
+    myObject.setSuit("Hearts");
+    System.out.println("myObject.getSuit()");
+    System.out.println("myObject.getValue()");
+    
     
 }
