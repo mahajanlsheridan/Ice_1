@@ -24,7 +24,7 @@ public class CardDealer
     System.out.println(myObject.getSuit());
     System.out.println(myObject.getValue());
     
-    Card twoObject=new Card();
+    Card threeObject=new Card();
     
     
 }
